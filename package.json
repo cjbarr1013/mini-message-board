@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
+    "dev": "node --watch app.js",
     "populate-db": "node db/populatedb.js"
   },
   "keywords": [],
